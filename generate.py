@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Draws entry.png: a one-page newspaper front page summing up
 Wednesday 18 November 2026. All artwork is vector-drawn with PIL;
-no photos, no copied assets. 1024x1024, deterministic output."""
+no photos, no copied assets. 1024x1024, deterministic output.
+Revision 2: strip extended to the bottom edge with the source credit on
+the label line; summit flag labels backed so the skyline never covers them;
+Gulf label right-aligned so it is never clipped."""
 from PIL import Image, ImageDraw, ImageFont
 import textwrap
 

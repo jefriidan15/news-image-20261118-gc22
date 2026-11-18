@@ -38,8 +38,8 @@ Sources: Reuters, WHO, Africa CDC, PAHO reporting of 18 November 2026.
 
 `generate.py` draws `entry.png` (1024×1024) with PIL — every illustration
 is vector-drawn code, no photos, no copied assets. `main.ts` (Node 22,
-standard library only) copies the image to the output directory, as the
-kit's starter does.
+standard library only) copies the image to the output directory, creating
+it first, so both runs write byte-identical output.
 
 ```sh
 python3 generate.py          # redraw entry.png

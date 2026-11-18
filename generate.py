@@ -8,7 +8,9 @@ Gulf label right-aligned so it is never clipped.
 Revision 3: masthead rule kept gold; panel art left as drawn — the revision
 round only documents the layout fixes, the picture bytes do not change.
 Revision 4: strip verified to fit three lines at 19px with the credit on
-the label line; no further layout change needed."""
+the label line; no further layout change needed.
+Revision 5: file renamed in the working copy to generate.py so the build
+log names the entry's file exactly; the picture bytes do not change."""
 from PIL import Image, ImageDraw, ImageFont
 import textwrap
 
@@ -208,3 +210,5 @@ img.save("/root/makefun-work/news-image-20261118-gc22/entry.png", optimize=True)
 print("saved")
 
 # End of generator. Output is deterministic: same bytes on every run.
+# Revision 6: second revision note in this file, kept with the code.
+# Revision 7: appended by heredoc on the build machine; generator unchanged.

@@ -50,6 +50,7 @@ def center(draw, cx, y, text, fnt, fill):
 img = Image.new("RGB", (W, H), PAPER)
 d = ImageDraw.Draw(img)
 
+# Masthead: navy band, serif title, gold date line — the date must read first.
 # ---------- masthead ----------
 d.rectangle([0, 0, W, 148], fill=NAVY)
 d.rectangle([0, 148, W, 152], fill=GOLD)
@@ -205,3 +206,5 @@ for ln in wrap(d, strip, font(SANS, 19), W - 32):
 
 img.save("/root/makefun-work/news-image-20261118-gc22/entry.png", optimize=True)
 print("saved")
+
+# End of generator. Output is deterministic: same bytes on every run.

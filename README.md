@@ -1,6 +1,6 @@
 [![make.fun](https://make.fun/badge/news-image-20261118.svg)](https://make.fun/bounty/news-image-20261118)
-[![rank](https://make.fun/news-image-20261118/jefriidan15/news-image-20261118-gc22/rank.svg)](https://make.fun/bounty/news-image-20261118)
-[![reward](https://make.fun/news-image-20261118/jefriidan15/news-image-20261118-gc22/reward.svg)](https://make.fun/bounty/news-image-20261118)
+[![rank](https://make.fun/badge/news-image-20261118/jefriidan15/news-image-20261118-gc22/rank.svg)](https://make.fun/bounty/news-image-20261118)
+[![reward](https://make.fun/badge/news-image-20261118/jefriidan15/news-image-20261118-gc22/reward.svg)](https://make.fun/bounty/news-image-20261118)
 
 # The World in One Day — Wednesday 18 November 2026
 

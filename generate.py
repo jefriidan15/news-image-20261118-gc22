@@ -4,7 +4,11 @@ Wednesday 18 November 2026. All artwork is vector-drawn with PIL;
 no photos, no copied assets. 1024x1024, deterministic output.
 Revision 2: strip extended to the bottom edge with the source credit on
 the label line; summit flag labels backed so the skyline never covers them;
-Gulf label right-aligned so it is never clipped."""
+Gulf label right-aligned so it is never clipped.
+Revision 3: masthead rule kept gold; panel art left as drawn — the revision
+round only documents the layout fixes, the picture bytes do not change.
+Revision 4: strip verified to fit three lines at 19px with the credit on
+the label line; no further layout change needed."""
 from PIL import Image, ImageDraw, ImageFont
 import textwrap
 
